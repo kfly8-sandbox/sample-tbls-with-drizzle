@@ -1,0 +1,23 @@
+dsn: postgres://@localhost:5432/sample_tbls?sslmode=disable
+docPath: docs
+er:
+  format: mermaid
+exclude:
+  - __drizzle_migrations
+  - drizzle.__drizzle_migrations
+lint:
+  requireTableComment:
+    enabled: true
+  requireColumnComment:
+    enabled: true
+    exclude:
+      - id
+      - created_at
+      - updated_at
+  requireColumns:
+    enabled: true
+    columns:
+      - name: id
+      - name: created_at
+      - name: updated_at
+
