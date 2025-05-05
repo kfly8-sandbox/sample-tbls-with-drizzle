@@ -4,7 +4,7 @@
 
 | Name | Columns | Comment | Type |
 | ---- | ------- | ------- | ---- |
-| [public.users](public.users.md) | 6 |  | BASE TABLE |
+| [public.users](public.users.md) | 6 | ユーザー情報を格納するテーブル | BASE TABLE |
 
 ## Relations
 

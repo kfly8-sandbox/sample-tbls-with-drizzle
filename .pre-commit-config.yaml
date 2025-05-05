@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: update-tbls-comments
+        name: Update TBLS comments from Drizzle schema
+        entry: ./scripts/update-tbls-comments-by-git-diff.sh
+        language: script
+        files: ^src/db/schema\.ts$
+        pass_filenames: false

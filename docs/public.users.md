@@ -2,14 +2,16 @@
 
 ## Description
 
+ユーザー情報を格納するテーブル
+
 ## Columns
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
 | id | integer |  | false |  |  |  |
-| name | varchar(255) |  | false |  |  |  |
-| age | integer |  | false |  |  |  |
-| email | varchar(255) |  | false |  |  |  |
+| name | varchar(255) |  | false |  |  | 名前 |
+| age | integer |  | false |  |  | 年齢 |
+| email | varchar(255) |  | false |  |  | メールアドレス |
 | created_at | timestamp without time zone | now() | false |  |  |  |
 | updated_at | timestamp without time zone | now() | false |  |  |  |
 
